@@ -1,8 +1,5 @@
 # Portafolio digital · Adriana Aguilar
-En este repositorio de alojan todas las herramientas necesarias para el curso de IA, ML, DL, y Portafolio
-
-Portafolio profesional de **Adriana Michelle Aguilar Romero** (Bachillerato General, Instituto Emiliani), construido como proyecto final del curso de 10 semanas de IA y desarrollo web de Súperate. En lugar de una página larga, funciona como una presentación interactiva: un menú de botones cambia el contenido de la pantalla.
-
+En este repositorio de alojan todas las herramientas necesarias para el curso de IA, ML, DL, y Portafolio profesional construido como proyecto final del curso de 10 semanas de IA y desarrollo web de Súperate.
 (evidencias/portafolio.jpg)
 
 **Portafolio publicado:** (https://portafolio-git-main-adri-53de.vercel.app/)
