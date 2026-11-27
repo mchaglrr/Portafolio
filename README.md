@@ -2,10 +2,9 @@
 
 Portafolio profesional de **Adriana Michelle Aguilar Romero** (Bachillerato General, Instituto Emiliani), construido como proyecto final del curso de 10 semanas de IA y desarrollo web de Súperate. En lugar de una página larga, funciona como una presentación interactiva: un menú de botones cambia el contenido de la pantalla.
 
-![Captura del portafolio](public/evidencias/captura-portafolio.png)
-<!-- Cuando tengas la captura, guárdala con ese nombre en public/evidencias -->
+(public/evidencias/portafolio.jpg)
 
-**Portafolio publicado:** PENDIENTE (pega aquí tu enlace de Vercel)
+**Portafolio publicado:** (https://portafolio-git-main-adri-53de.vercel.app/)
 
 ## Tecnologías
 React · Next.js (App Router) · TypeScript · Tailwind CSS · Git y GitHub · Vercel
