@@ -179,7 +179,7 @@ export const projects: Project[] = [
     tech: ["Arduino"],
     results: [],
     learnings: "Que el ángulo y la velocidad inicial determinan el alcance, y que probar y ajustar es clave para que la teoría coincida con la práctica. Asimismo, aprendí a liderar un grupo de personas y coordinarnos como equipo.",
-    files: [], images: ["/evidencias/expo1.jpeg"], ["/evidencias/expo2.jpeg"]
+    files: [], images: ["public/evidencias/expo1.jpeg"], ["public/evidencias/expo2.jpeg"],
   },
 ];
 
