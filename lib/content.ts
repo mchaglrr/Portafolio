@@ -162,13 +162,14 @@ export const projects: Project[] = [
     id: "catapulta", title: "Expotécnica: catapulta en un volcán", tag: "Proyecto escolar",
     summary: "Catapulta construida dentro de una maqueta de volcán para mostrar trayectorias parabólicas de proyectiles.",
     problem: "Las fórmulas del movimiento parabólico parecen abstractas, pero comunidades cerca de volcanes como el Chaparrastique necesitan saber hasta dónde pueden caer las bombas volcánicas.",
-    goal: "Demostrar, con una catapulta en un volcán a escala, que la fórmula del libro es la que usa el MARN para definir zonas de evacuación.", 
-    role: "Mi rol como líder, Coordiné al equipo, repartí las tareas, verifiqué los cálculos de v₀ y θ y dirigí los ensayos de la exposición.",
-   tech: ["Arduino 1"],
-  learnings: "Que el ángulo y la velocidad inicial determinan el alcance, y que probar y ajustar es clave para que la teoría coincida con la práctica. Asimismo, aprendí a liderar un grupo de personas y coordinarnos como equipo",
+    goal: "Demostrar, con una catapulta en un volcán a escala, que la fórmula del libro es la que usa el MARN para definir zonas de evacuación.",
+    role: "Fui la líder del equipo: coordiné al equipo, repartí las tareas, verifiqué los cálculos de v₀ y θ y dirigí los ensayos de la exposición.",
+    process: [],
+    tech: ["Arduino"],
+    results: [],
+    learnings: "Que el ángulo y la velocidad inicial determinan el alcance, y que probar y ajustar es clave para que la teoría coincida con la práctica. Asimismo, aprendí a liderar un grupo de personas y coordinarnos como equipo.",
     files: [], images: [],
   },
-];
 
 // Distribución de tiempo sugerida por el profesor para el elevator pitch (2 minutos)
 export const pitchSegments = [
