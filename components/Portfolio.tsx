@@ -229,8 +229,8 @@ function ProjectDetail({ p, back }: { p: Project; back: () => void }) {
         {block("Objetivo", <T>{p.goal}</T>)}
         {block("Mi rol", <T>{p.role}</T>)}
         {block("Aprendizajes", <T>{p.learnings}</T>)}
-        <div className="md:col-span-2">{block("Proceso y solución", list(p.process))}</div>
-        <div className="md:col-span-2">{block("Resultados", list(p.results))}</div>
+               {p.process.length > 0 && <div className="md:col-span-2">{block("Proceso y solución", list(p.process))}</div>}
+        {p.results.length > 0 && <div className="md:col-span-2">{block("Resultados", list(p.results))}</div>}
         <div className="md:col-span-2">
           {block("Código y archivos", p.files.length ? (
             <div className="flex flex-wrap gap-3">{p.files.map((f) => (
