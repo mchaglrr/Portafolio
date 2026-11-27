@@ -17,14 +17,13 @@ export const about = {
   who: "PENDIENTE: escribe quién eres, qué te interesa y qué te gusta hacer (3 o 4 líneas).",
   studying: "Estudiante de Bachillerato General en el Instituto Emiliani (2025-2026).",
   interests: "PENDIENTE: tus intereses personales.",
-  goals: "Estudiar Relaciones Internacionales y desarrollarme profesionalmente viajando por el mundo. (Borrador: edítalo a tu gusto.)",
+  goals: "Estudiar Relaciones Internacionales y desarrollarme profesionalmente viajando por el mundo y marcando la diferencia en donde sea que esté.",
   strengths: ["PENDIENTE: tu primera fortaleza", "PENDIENTE: tu segunda fortaleza", "PENDIENTE: tu tercera fortaleza"],
 };
 
 export const experience = [
-  { title: "Expotécnicas tecnológicas", org: "Centro Súperate · Fundación Frech", type: "Participación académica", text: "Participación en las expotécnicas tecnológicas de Súperate. PENDIENTE: tu rol y lo que aprendiste." },
-  { title: "Colectas", org: "TECHO", type: "Voluntariado", text: "Voluntariado en colectas de TECHO. PENDIENTE: año(s) y tu responsabilidad." },
-  { title: "Liderazgo y logros", org: "—", type: "Pendiente", text: "PENDIENTE: si has liderado equipos, organizado eventos o tienes logros, cuéntalos aquí. Si no, borra esta tarjeta." },
+  { title: "Expotécnicas tecnológicas", org: "Centro Súperate · Fundación Frech", type: "Participación académica", text: "Participación en las expotécnicas tecnológicas del programa Súperate en las cuales aprendí a trabajar con tecnologías nuevas en equipo cada año." },
+  { title: "Colectas", org: "TECHO", type: "Voluntariado", text: "Voluntariado en colectas de TECHO durante 2024" },
 ];
 
 export const education = {
@@ -162,9 +161,11 @@ export const projects: Project[] = [
   {
     id: "catapulta", title: "Expotécnica: catapulta en un volcán", tag: "Proyecto escolar",
     summary: "Catapulta construida dentro de una maqueta de volcán para mostrar trayectorias parabólicas de proyectiles.",
-    problem: "PENDIENTE: problema que aborda.", goal: "PENDIENTE: objetivo.", role: "PENDIENTE: tu participación.",
-    process: ["PENDIENTE: cómo lo construyeron."], tech: ["PENDIENTE"],
-    results: ["PENDIENTE: resultados y fotos."], learnings: "PENDIENTE: qué aprendiste.",
+    problem: "Las fórmulas del movimiento parabólico parecen abstractas, pero comunidades cerca de volcanes como el Chaparrastique necesitan saber hasta dónde pueden caer las bombas volcánicas.",
+    goal: "Demostrar, con una catapulta en un volcán a escala, que la fórmula del libro es la que usa el MARN para definir zonas de evacuación.", 
+    role: "Mi rol como líder, Coordiné al equipo, repartí las tareas, verifiqué los cálculos de v₀ y θ y dirigí los ensayos de la exposición.",
+   tech: ["Arduino 1"],
+  learnings: "Que el ángulo y la velocidad inicial determinan el alcance, y que probar y ajustar es clave para que la teoría coincida con la práctica. Asimismo, aprendí a liderar un grupo de personas y coordinarnos como equipo",
     files: [], images: [],
   },
 ];
