@@ -81,7 +81,7 @@ export const projects: Project[] = [
     ],
     learnings: "Aprendí que una regresión lineal encuentra la recta que mejor resume la relación entre dos variables, y a interpretar la pendiente, el intercepto, R² y MSE para saber qué tan bueno es el modelo.",
     files: [{ label: "regresionl.py", href: "/code/regresionl.py" }],
-    images: ["public/evidencias/grafica.jpg"],
+    images: ["/evidencias/grafica.jpg"],
   },
   {
     id: "laberinto", title: "Laberinto", tag: "Actividad 2 · Semana 4",
@@ -104,7 +104,7 @@ export const projects: Project[] = [
     ],
     learnings: "Aprendí que un laberinto puede verse como un árbol de decisiones: en cada bifurcación se elige un camino y, si no hay salida, se retrocede. También aprendí a usar listas anidadas, una pila y la biblioteca tkinter para dibujar y controlar un juego con el teclado.",
     files: [{ label: "laberinto.py", href: "/code/laberinto.py" }],
-    images: ["public/evidencias/laberinto.png"],
+    images: ["/evidencias/laberinto.png"],
   },
   {
     id: "kmeans-knn", title: "AI Challenge: K-Means y KNN", tag: "Actividad 3",
@@ -127,7 +127,7 @@ export const projects: Project[] = [
     ],
     learnings: "K-Means descubre grupos sin etiquetas y KNN necesita etiquetas para predecir. Ambos usan distancias, por eso conviene normalizar los datos.",
     files: [{ label: "ai_challenge_kmeans_knn.py", href: "/code/ai_challenge_kmeans_knn.py" }],
-    images: ["public/evidencias/kmeans.jpg"],
+    images: ["/evidencias/kmeans.jpg"],
   },
   {
     id: "hotspots", title: "Hotspots Comerciales: VIDRI en La Paz", tag: "Actividad 4",
@@ -149,7 +149,7 @@ export const projects: Project[] = [
     ],
     learnings: "Aprendí a trabajar con datos reales de OpenStreetMap, a limpiarlos y a combinar K-Means, KNN y un mapa. También entendí que los resultados son hipótesis: para decidir hacen falta datos de población, tráfico, competencia y costos.",
     files: [{ label: "hotspots_vidri_la_paz.py", href: "/code/hotspots_vidri_la_paz.py" }],
-    images: ["public/evidencias/mapa.jpg"],
+    images: ["/evidencias/mapa.jpg"],
   },
   {
     id: "portafolio", title: "Este portafolio: Next.js y API REST", tag: "Desarrollo web · Backend",
@@ -167,7 +167,7 @@ export const projects: Project[] = [
     results: ["Sitio publicado en Vercel con las siete secciones, una vista de detalle para cada proyecto y un formulario de contacto conectado a la API REST POST /api/contact."],
     learnings: "Aprendí a organizar un proyecto con Next.js y React, a usar Git y GitHub para guardar cambios, a publicar en Vercel y a leer los errores de compilación para corregirlos.",
     files: [{ label: "Repositorio en GitHub", href: "https://github.com/mchaglrr/portafolio" }],
-    images: ["public/evidencias/portafolio.jpg"],
+    images: ["/evidencias/portafolio.jpg"],
   },
   {
     id: "catapulta", title: "Expotécnica: catapulta en un volcán", tag: "Proyecto escolar",
@@ -179,7 +179,7 @@ export const projects: Project[] = [
     tech: ["Arduino"],
     results: [],
     learnings: "Que el ángulo y la velocidad inicial determinan el alcance, y que probar y ajustar es clave para que la teoría coincida con la práctica. Asimismo, aprendí a liderar un grupo de personas y coordinarnos como equipo.",
-    files: [], images: ["public/evidencias/expo1.jpeg"], ["public/evidencias/expo2.jpeg"]
+    files: [], images: ["/evidencias/expo1.jpeg"], ["/evidencias/expo2.jpeg"]
   },
 ];
 
