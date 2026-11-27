@@ -81,7 +81,7 @@ export const projects: Project[] = [
     ],
     learnings: "Aprendí que una regresión lineal encuentra la recta que mejor resume la relación entre dos variables, y a interpretar la pendiente, el intercepto, R² y MSE para saber qué tan bueno es el modelo.",
     files: [{ label: "regresionl.py", href: "/code/regresionl.py" }],
-    images: ["public/evidencias/grafica.jpg"],
+    images: ["../public/evidencias/grafica.jpg"],
   },
   {
     id: "laberinto", title: "Laberinto", tag: "Actividad 2 · Semana 4",
